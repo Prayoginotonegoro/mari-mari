@@ -1,0 +1,14 @@
+input {
+    width: 115%;
+    padding: 7px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.atas {
+    background-color: #fcaf3e;
+    height: 50px;
+}

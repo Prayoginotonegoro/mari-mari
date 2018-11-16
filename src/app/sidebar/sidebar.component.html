@@ -1,0 +1,32 @@
+<header>
+  <nav class="op" style="background-image: url('../../assets/img/bg.png'); position: sticky; top: 0;">
+    <div class="container">
+      <div class="nav-wrapper">
+        <form class="left">
+          <input placeholder="Cari..." id="search" class="browser-default" type="search" required>
+        </form>
+  
+        <a class="sidenav-trigger right" data-target="nav-side" href="#"><i class="material-icons">menu</i></a>
+        <ul class="right">
+          <li>
+            <a href=""><i class="material-icons">account_circle</i></a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="nav-side">
+    <li>
+      <div class="user-view" style="height: 372px">
+        <div class="background">
+          <img src="../../assets/img/bg.png" alt="">
+        </div>
+      </div>
+    </li>
+    <li>
+      <a [routerLink]="['/login']"><i class="material-icons">subdirectory_arrow_right</i> Login</a>
+    </li>
+  </ul>
+</header>

@@ -1,1 +1,11 @@
+@import url('./assets/css/materialize.min.css');
+@font-face {
+	font-family: round;
+	src: url('assets/font/roundy_rainbows/RoundyRainbows.otf');
+}
+
+@font-face {
+	font-family: point;
+	src: url('assets/font/pointfree/pointfree.ttf');
+}
 /* You can add global styles to this file, and also import other style files */

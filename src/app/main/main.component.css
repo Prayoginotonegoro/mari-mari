@@ -1,0 +1,6 @@
+@import url('../../assets/css/materialize.min.css');
+
+.bg-main {
+    background-image: url('../../assets/img/bg.png');
+    height: 372px;
+}
